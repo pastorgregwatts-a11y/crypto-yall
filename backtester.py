@@ -55,7 +55,7 @@ ASSET_PROFILES = {
         "label": "Mid Cap",
         "tickers": {"SOL-USD", "AVAX-USD", "LINK-USD", "SUI20947-USD", "XRP-USD"},
         "max_bull_leverage": 1.5,   # reduced leverage for volatile alts
-        "allow_short": False,       # no shorting — too volatile
+        "allow_short": True,       # no shorting — too volatile
         "atr_mult": 4.0,           # wider trailing stop
     },
 }
